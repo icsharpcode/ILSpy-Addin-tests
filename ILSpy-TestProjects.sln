@@ -13,6 +13,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{805004D4-CA3D-47FD-BA97-4C06A4FEEEDD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary2", "SomeSubDir\AnotherSubDir\ClassLibrary2\ClassLibrary2.csproj", "{80A44A17-F831-439E-A3BE-6E34EA273C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary3", "SomeSubDir\AnotherSubDir\ClassLibrary3\ClassLibrary3.csproj", "{E1D73037-0F26-4823-8435-A8DFC12474D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubFolder", "SubFolder", "{55FC9F2A-C03C-423A-B707-01F97E2714C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectlessSubFolder", "ProjectlessSubFolder", "{9D1C1CE8-2F8F-4386-8317-B6A4D927C9CB}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubSubFolder", "SubSubFolder", "{E56135B0-E45B-4E40-830E-397DD6B47CA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubSubSubFolder", "SubSubSubFolder", "{8331BAE3-8230-4BF8-960A-BD63EA7CC574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,9 +96,38 @@ Global
 		{805004D4-CA3D-47FD-BA97-4C06A4FEEEDD}.Release|x64.Build.0 = Release|Any CPU
 		{805004D4-CA3D-47FD-BA97-4C06A4FEEEDD}.Release|x86.ActiveCfg = Release|Any CPU
 		{805004D4-CA3D-47FD-BA97-4C06A4FEEEDD}.Release|x86.Build.0 = Release|Any CPU
+		{80A44A17-F831-439E-A3BE-6E34EA273C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A44A17-F831-439E-A3BE-6E34EA273C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A44A17-F831-439E-A3BE-6E34EA273C52}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{80A44A17-F831-439E-A3BE-6E34EA273C52}.Debug|x64.Build.0 = Debug|Any CPU
+		{80A44A17-F831-439E-A3BE-6E34EA273C52}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{80A44A17-F831-439E-A3BE-6E34EA273C52}.Debug|x86.Build.0 = Debug|Any CPU
+		{80A44A17-F831-439E-A3BE-6E34EA273C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A44A17-F831-439E-A3BE-6E34EA273C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A44A17-F831-439E-A3BE-6E34EA273C52}.Release|x64.ActiveCfg = Release|Any CPU
+		{80A44A17-F831-439E-A3BE-6E34EA273C52}.Release|x64.Build.0 = Release|Any CPU
+		{80A44A17-F831-439E-A3BE-6E34EA273C52}.Release|x86.ActiveCfg = Release|Any CPU
+		{80A44A17-F831-439E-A3BE-6E34EA273C52}.Release|x86.Build.0 = Release|Any CPU
+		{E1D73037-0F26-4823-8435-A8DFC12474D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D73037-0F26-4823-8435-A8DFC12474D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D73037-0F26-4823-8435-A8DFC12474D2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E1D73037-0F26-4823-8435-A8DFC12474D2}.Debug|x64.Build.0 = Debug|Any CPU
+		{E1D73037-0F26-4823-8435-A8DFC12474D2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E1D73037-0F26-4823-8435-A8DFC12474D2}.Debug|x86.Build.0 = Debug|Any CPU
+		{E1D73037-0F26-4823-8435-A8DFC12474D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D73037-0F26-4823-8435-A8DFC12474D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D73037-0F26-4823-8435-A8DFC12474D2}.Release|x64.ActiveCfg = Release|Any CPU
+		{E1D73037-0F26-4823-8435-A8DFC12474D2}.Release|x64.Build.0 = Release|Any CPU
+		{E1D73037-0F26-4823-8435-A8DFC12474D2}.Release|x86.ActiveCfg = Release|Any CPU
+		{E1D73037-0F26-4823-8435-A8DFC12474D2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73889508-9CC4-42FD-9683-A7AC5C9859B1} = {8331BAE3-8230-4BF8-960A-BD63EA7CC574}
+		{E56135B0-E45B-4E40-830E-397DD6B47CA1} = {55FC9F2A-C03C-423A-B707-01F97E2714C5}
+		{8331BAE3-8230-4BF8-960A-BD63EA7CC574} = {E56135B0-E45B-4E40-830E-397DD6B47CA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCC91071-163C-4086-A2F1-0A20440BCF82}
