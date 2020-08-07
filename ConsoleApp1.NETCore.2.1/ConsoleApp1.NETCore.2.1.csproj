@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
-    <ProjectReference Include="..\SomeSubDir\AnotherSubDir\ClassLibrary2\ClassLibrary2.csproj" />
+    <ProjectReference Include="..\ClassLibrary1.NETStandard.2.0\ClassLibrary1.NETStandard.2.0.csproj" />
+    <ProjectReference Include="..\SomeSubDir\AnotherSubDir\ClassLibrary2.NETCore.2.1\ClassLibrary2.NETCore.2.1.csproj" />
   </ItemGroup>
 
 </Project>

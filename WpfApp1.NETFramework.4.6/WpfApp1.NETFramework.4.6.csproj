@@ -94,9 +94,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SomeSubDir\AnotherSubDir\ClassLibrary3\ClassLibrary3.csproj">
+    <ProjectReference Include="..\SomeSubDir\AnotherSubDir\ClassLibrary3.NETFramework.4.6\ClassLibrary3.NETFramework.4.6.csproj">
       <Project>{E1D73037-0F26-4823-8435-A8DFC12474D2}</Project>
-      <Name>ClassLibrary3</Name>
+      <Name>ClassLibrary3.NETFramework.4</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

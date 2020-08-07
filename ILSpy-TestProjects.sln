@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{73889508-9CC4-42FD-9683-A7AC5C9859B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1.NETStandard.2.0", "ClassLibrary1.NETStandard.2.0\ClassLibrary1.NETStandard.2.0.csproj", "{73889508-9CC4-42FD-9683-A7AC5C9859B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{55786FB1-89EA-4AB5-AB62-3EE4D446CAFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1.NETCore.2.1", "ConsoleApp1.NETCore.2.1\ConsoleApp1.NETCore.2.1.csproj", "{55786FB1-89EA-4AB5-AB62-3EE4D446CAFE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{66C9232B-F896-48E9-B109-64D7A903012B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{5629710F-EAFB-4F39-8246-104C3370E85C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1.NETCore.2.1", "WebApplication1.NETCore.2.1\WebApplication1.NETCore.2.1.csproj", "{5629710F-EAFB-4F39-8246-104C3370E85C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{805004D4-CA3D-47FD-BA97-4C06A4FEEEDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1.NETFramework.4.6", "WpfApp1.NETFramework.4.6\WpfApp1.NETFramework.4.6.csproj", "{805004D4-CA3D-47FD-BA97-4C06A4FEEEDD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary2", "SomeSubDir\AnotherSubDir\ClassLibrary2\ClassLibrary2.csproj", "{80A44A17-F831-439E-A3BE-6E34EA273C52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary2.NETCore.2.1", "SomeSubDir\AnotherSubDir\ClassLibrary2.NETCore.2.1\ClassLibrary2.NETCore.2.1.csproj", "{80A44A17-F831-439E-A3BE-6E34EA273C52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary3", "SomeSubDir\AnotherSubDir\ClassLibrary3\ClassLibrary3.csproj", "{E1D73037-0F26-4823-8435-A8DFC12474D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary3.NETFramework.4.6", "SomeSubDir\AnotherSubDir\ClassLibrary3.NETFramework.4.6\ClassLibrary3.NETFramework.4.6.csproj", "{E1D73037-0F26-4823-8435-A8DFC12474D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubFolder", "SubFolder", "{55FC9F2A-C03C-423A-B707-01F97E2714C5}"
 EndProject
@@ -28,9 +28,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubSubFolder", "SubSubFolde
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubSubSubFolder", "SubSubSubFolder", "{8331BAE3-8230-4BF8-960A-BD63EA7CC574}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryStd4", "ClassLibraryStd4\ClassLibraryStd4.csproj", "{69445A93-E91F-465F-B766-85F15D2D2C53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary4.NETStandard.2.0", "ClassLibraryStd4.NETStandard.2.0\ClassLibrary4.NETStandard.2.0.csproj", "{69445A93-E91F-465F-B766-85F15D2D2C53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppCore.3.0", "WindowsFormsAppCore.3.0\WindowsFormsAppCore.3.0.csproj", "{8B185C1D-61E0-4D07-957E-21D827B54B19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsFormsApp.NETCore.3.0", "WindowsFormsApp.NETCore.3.0\WindowsFormsApp.NETCore.3.0.csproj", "{8B185C1D-61E0-4D07-957E-21D827B54B19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
