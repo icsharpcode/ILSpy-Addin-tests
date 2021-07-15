@@ -8,4 +8,8 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryStd4.NETStandard.2.0\ClassLibrary4.NETStandard.2.0.csproj" />
+  </ItemGroup>
+
 </Project>
